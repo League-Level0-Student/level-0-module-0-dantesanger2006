@@ -9,9 +9,40 @@ import org.jointheleague.graphical.robot.Robot;
 
 public class Welcome {
 	public static void main(String[] args) {
-		Robot r2d2 = new Robot();
-		r2d2.setSpeed(10);
-		r2d2.move(400);
-		JOptionPane.showMessageDialog(null, "WELCOME TO LEVEL 0!!");
+		Robot no = new Robot();
+		no.penDown();
+		no.setSpeed(40);
+		for (int i = 0; i < 4; i++) {
+			no.setRandomPenColor();	
+		
+		no.move(100);
+		no.turn(90);
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+
+
+
+
 	}
 }
